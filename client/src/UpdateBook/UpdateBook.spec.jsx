@@ -17,7 +17,7 @@ jest.mock("../shared/BookForm", () => ({
   BookForm: jest.fn(),
 }));
 
-describe("UpdateBaook", () => {
+describe("UpdateBook", () => {
   beforeEach(() => {
     useFetchBook.mockImplementation(() => ({}));
     useUpdateBook.mockImplementation(() => ({}));
